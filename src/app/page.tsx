@@ -72,7 +72,7 @@ export default function Home() {
           Fetch
         </button>
       </form>
-      <p>Built with <Icon icon="noto:heart-suit" /> in Rio</p>
+      <p><a href="https://github.com/gris/dj">Made</a> with <Icon icon="noto:heart-suit" /> and <Icon icon={"noto:hot-beverage"}/> in Rio</p>
     </main>
   );
 }
