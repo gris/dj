@@ -27,10 +27,8 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-5xl font-bold">Spotify BPM Detective</h1>
-      <p className="text-2xl">
-        Find the tempo of any Spotify track
-      </p>
+      <h1 className="text-5xl font-bold">BPM Detective</h1>
+      <p className="text-2xl">Find the tempo of any Spotify track</p>
       {!loading && <p className="text-2xl">Tempo: {tempo} BPM</p>}
       {loading && <p className="text-2xl">Loading...</p>}
       <form 
@@ -69,7 +67,7 @@ export default function Home() {
           type="submit"
           className="p-2 text-white bg-gray-900 rounded-lg dark:bg-neutral-900 lg:w-24 lg:dark:bg-neutral-900"
         >
-          Fetch
+          Submit
         </button>
       </form>
       <p><a href="https://github.com/gris/dj">Made</a> with <Icon icon="noto:heart-suit" /> and <Icon icon={"noto:hot-beverage"}/> in Rio</p>
