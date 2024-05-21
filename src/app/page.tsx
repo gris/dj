@@ -56,7 +56,7 @@ export default function Home() {
         <input
           type="text"
           placeholder="Enter a track URL"
-          className="w-full p-2 border border-gray-300 rounded-lg dark:border-neutral-800 lg:w-96 lg:dark:border-neutral-800 lg:bg-gray-200 lg:dark:bg-zinc-800/30 lg:backdrop-blur-xl"
+          className="w-full p-2 border border-gray-300 rounded-lg dark:border-neutral-800 lg:w-96 dark:border-neutral-800 bg-gray-200 dark:bg-zinc-800/30 backdrop-blur-xl"
           onChange={(e) => {
             e.preventDefault()
             setTrackUrl(e.target.value)
